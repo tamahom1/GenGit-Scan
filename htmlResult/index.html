@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" href="gengisKhan.png">
+		<title>
+			GenGit Scan
+		</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="chartsMin.js">
+		</script>
+		<script src="chartGen.js">
+		</script>
+	</head>
+	<body>
+		<div>
+			List of members
+			<table class="members">
+				<tr>
+					<th>
+						Avatar
+					</th>
+					<th>
+						Full Name
+					</th>
+					<th>
+						Username
+					</th>
+				</tr>
+				<tr>
+					<td>
+						<img src="https://secure.gravatar.com/avatar/3add01f9be15323a4875cb4cde08bbb3?s=80&d=identicon">
+					</td>
+					<td>
+						Aldric Degorre
+					</td>
+					<td>
+						<a href="https://gaufre.informatique.univ-paris-diderot.fr/adegorre">
+							adegorre
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="https://secure.gravatar.com/avatar/170780e21ae9d2c7e7cc545f184dc2d0?s=80&d=identicon">
+					</td>
+					<td>
+						KLIMANN INES
+					</td>
+					<td>
+						<a href="https://gaufre.informatique.univ-paris-diderot.fr/klimann">
+							klimann
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="https://secure.gravatar.com/avatar/856ebc1a4c90c5e653983149deccc1da?s=80&d=identicon">
+					</td>
+					<td>
+						SPEHAR victor
+					</td>
+					<td>
+						<a href="https://gaufre.informatique.univ-paris-diderot.fr/spehar">
+							spehar
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="https://secure.gravatar.com/avatar/c94dd264c87d7e22fd29070cfa432f3e?s=80&d=identicon">
+					</td>
+					<td>
+						BADAOUI ismail
+					</td>
+					<td>
+						<a href="https://gaufre.informatique.univ-paris-diderot.fr/badaoui">
+							badaoui
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="https://secure.gravatar.com/avatar/735a56b0a0e3d30110d2267187590055?s=80&d=identicon">
+					</td>
+					<td>
+						ROUGEOLLE yoan
+					</td>
+					<td>
+						<a href="https://gaufre.informatique.univ-paris-diderot.fr/rougeoll">
+							rougeoll
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="https://secure.gravatar.com/avatar/7435c0501237e3d9be770134ee4f3b6a?s=80&d=identicon">
+					</td>
+					<td>
+						LEYMARIE alexandre
+					</td>
+					<td>
+						<a href="https://gaufre.informatique.univ-paris-diderot.fr/leymarie">
+							leymarie
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="https://secure.gravatar.com/avatar/2983580f852363f6fc8398b6c397e8c0?s=80&d=identicon">
+					</td>
+					<td>
+						TANG Elody
+					</td>
+					<td>
+						<a href="https://gaufre.informatique.univ-paris-diderot.fr/tange">
+							tange
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="https://secure.gravatar.com/avatar/aea7a40b6aa4f5bb7df14f6a6ac69182?s=80&d=identicon">
+					</td>
+					<td>
+						NEDJAI etienne
+					</td>
+					<td>
+						<a href="https://gaufre.informatique.univ-paris-diderot.fr/nedjai">
+							nedjai
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="https://secure.gravatar.com/avatar/1d60ff5e93bfcaa2836852fa56d8f919?s=80&d=identicon">
+					</td>
+					<td>
+						CHERION jules
+					</td>
+					<td>
+						<a href="https://gaufre.informatique.univ-paris-diderot.fr/cherion">
+							cherion
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<img src="https://secure.gravatar.com/avatar/963af5d7e9802f151e0acd2258d7c0de?s=80&d=identicon">
+					</td>
+					<td>
+						ZHANG xuewei
+					</td>
+					<td>
+						<a href="https://gaufre.informatique.univ-paris-diderot.fr/zhangxxu">
+							zhangxxu
+						</a>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div>
+			<script>
+				var labels = ['Java','CSS','JavaScript','HTML','Kotlin'];
+var data = [97.26,0.22,1.05,0.79,0.69];
+genChart('pie','Percentage of each extension','Percentage of each extension', labels, data);
+
+			</script>
+		</div>
+		<div>
+			<script>
+				var labels = ['ZHANG xuewei','BADAOUI ismail','SPEHAR victor','NEDJAI etienne','LEYMARIE alexandre','TANG Elody','CHERION jules','ROUGEOLLE yoan'];
+var data = [3,22,4,10,13,15,6,17];
+genChart('bar','Number of issues per member','Number of issues', labels, data);
+
+			</script>
+		</div>
+		<div>
+			<script>
+				var labels = ['ZHANG xuewei','BADAOUI ismail','SPEHAR victor','NEDJAI etienne','LEYMARIE alexandre','TANG Elody','CHERION jules','ROUGEOLLE yoan','KLIMANN INES'];
+var data = [2,135,18,59,62,174,47,161,1];
+genChart('bar','Number of comments per member','Number of comments', labels, data);
+
+			</script>
+		</div>
+		<div>
+			<script>
+				var labels = ['Alexandre LEYMARIE ','ROUGEOLLE yoan ','zhangxxu ','Jules Cherion ','Etienne Nedjai ','Aldric Degorre ','Colin Gonzalez ','BADAOUI ismail ','Elody ','Victor Spehar ','Ismail BADAOUI ','root '];
+var data = [4.827183899664576,21.306693889456028,0.07291818579553741,8.371007729327694,3.0771474405716788,11.46273880705848,0.0,0.6562636721598366,21.058772057751206,1.516698264547178,27.4901560449176,0.16042000875018228];
+genChart('pie','Contribution','Contribution', labels, data);
+
+			</script>
+		</div>
+	</body>
+</html>
