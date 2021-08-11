@@ -215,15 +215,14 @@ Example :
 
 1. **How to get the project ID ?**
 
-![Project ID](https://gaufre.informatique.univ-paris-diderot.fr/badaoui/visulog/raw/a8a33523c3a68afcf405a4fb400127e06a6b54bf/images/ID.png)
+![Project ID](https://user-images.githubusercontent.com/56160927/129028082-47e1f343-9b00-49df-abac-b310c3652050.png)
 
 2. **How to generate the private Token ?**
 
-![Private Token 1](https://gaufre.informatique.univ-paris-diderot.fr/badaoui/visulog/raw/a8a33523c3a68afcf405a4fb400127e06a6b54bf/images/PrivateToken1.png)
+![Private Token 1](https://user-images.githubusercontent.com/56160927/129028146-b56a4f1a-adc4-4c37-b79d-5e3e20e4e46f.png)
 
-![Private Token 2](https://gaufre.informatique.univ-paris-diderot.fr/badaoui/visulog/raw/a8a33523c3a68afcf405a4fb400127e06a6b54bf/images/PrivateToken2.png)
+![Private Token 2](https://user-images.githubusercontent.com/56160927/129028244-96eff729-09de-4ee2-a82b-d55862b46e2c.png)
 
-![Private Token 3](https://gaufre.informatique.univ-paris-diderot.fr/badaoui/visulog/raw/a8a33523c3a68afcf405a4fb400127e06a6b54bf/images/PrivateToken3.png)
+![Private Token 3](https://user-images.githubusercontent.com/56160927/129028314-ff06ab42-3301-42ae-9da5-7d3d2801ca47.png)
 
-![Private Token 4](https://gaufre.informatique.univ-paris-diderot.fr/badaoui/visulog/raw/a8a33523c3a68afcf405a4fb400127e06a6b54bf/images/PrivateToken4.png)
-
+![Private Token 4](https://user-images.githubusercontent.com/56160927/129028361-a22da537-0463-42be-b3ce-0afe928e8010.png)
